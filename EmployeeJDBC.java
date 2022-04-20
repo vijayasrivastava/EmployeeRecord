@@ -18,6 +18,7 @@ public class EmployeeJDBC {
 			System.out.println("3. SEARCH");
 			System.out.println("4. DELETE");
 			System.out.println("5. UPDATE");
+			System.out.println("0. EXIT");
 			System.out.print("Enter your choice: ");
 			
 			ch=sc.nextInt();
