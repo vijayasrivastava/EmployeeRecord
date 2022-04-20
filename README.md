@@ -1,5 +1,5 @@
 # EmployeeRecord
-A menu driven program that allows us to perform CRUD operations on Employee Records namely Insert, Display, Search, Delete and Update.
+A menu driven program that allows us to perform CRUD operations on Employee Records namely Insert, Display, Search, Delete and Update on a Employee database using MySQL in JDBC.
 
 It starts by giving the user five options:
 #1: INSERT
@@ -8,5 +8,4 @@ It starts by giving the user five options:
 #4: DELETE
 #5: UPDATE
 
-The Employee records are stored temporarily in an Array List and can be optimized by linking it to a MySQL server.
-This code aims to understand CRUD operations by creating a list of the data type employee and performing various operations on it.
+The Employee records are stored in a MySQL server and are edited using the JAVA file implementing JDBC concepts in MySQL.
