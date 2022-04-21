@@ -5,7 +5,7 @@ public class EmployeeJDBC {
 	public static void main(String[] args) throws Exception{
 		Connection con=null;
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://127.0.0.1/","root123","root123");
+		con=DriverManager.getConnection("jdbc:mysql://127.0.0.1/","root123","*****");
 		Statement st = con.createStatement();
 		st.execute("USE EMPLOYEE");
 		
